@@ -1,0 +1,46 @@
+:root{
+    --branco-fonte: #EDE7E7 ;
+    --rosa-base: #FC0147 ;
+    --roxo-base: #52088C ;
+    --amarelo-base: #F8B10A ;
+    --azulclaro-base: #54ACD2 ;
+    --roxoescuro-contraste: #39245F;
+    
+}
+
+nav{
+    background-color: var(--roxo-base);
+    padding: 10px 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#logo{
+    width: 51px;
+    height: 34px;
+}
+
+nav .logo a{
+    text-decoration: none;
+    font-size: 35px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    padding: 10px, 40px;
+}
+
+nav li{
+    margin-left: 7px;
+    padding: 8px, 15px;
+}
+
+a{
+    color: var(--branco-fonte);
+    font-size: 17px;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    text-decoration: none;
+    padding-right: 90px;
+
+}

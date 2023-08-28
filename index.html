@@ -1,14 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfólio</title>
-    <link rel="stylesheet" href="portfolio_style.css"><link/>
-    <link rel ="website icon" type="png" href="programming.png"><link/>
+    <title>{Letícia_Soares}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Reem+Kufi+Fun:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="reset_css.css">
+    <link rel="stylesheet" href="style.css"><link />
+    <link rel="website icon" type="png" href="images/logo.png"><link />
 </head>
-<body>
-    <script src = "portfolio.js"></script>
+<body> 
+    <script src="portfolio.js"></script>
+
+    <header> <!--pode ser criado automaticamente com "header>img>nav>a*4"-->
+        <nav> <!-- Navegador (tag <a> serve para colocar LINKS!)-->
+            
+            <div class="logo">
+                <img id = "logo" src="images/logo.png" alt="Logo"> 
+                <a id= "logo_name">{Letícia_Soares}</a>
+            </div>
+
+            <ul>
+                <li><a href="#" lang="en">Home</a></li>
+                <li><a href="" lang="en">Skills</a></li>
+                <li><a href="">Projetos</a></li>
+                <li><a href="">Sobre mim</a></li>
+                <li><a id = "btn_download" lang="en" href="https://github.com/">Download CV</a></li>
+            </ul>
+        </nav>
+
+        <section class="banner">
+            <div class="texto">
+                <h2 class="subtitulo">Sua próxima desenvolvedora</h2>
+                <h1 class="titulo">FRONT-END ;)</h1>
+                <div class ="button">
+                    <button id = "btn_download" lang="en" href="https://github.com/">Download CV</button>
+                    <button id = "btn_github" >
+                        <img src= "images/github_icon.svg" href="https://github.com/GabigoldoSenai" alt="GitHub: @GabigoldoSenai">
+                    </button>
+                    <button id = "btn_linkedin">
+                        <img src= "images/linkedin_icon.svg" href="https://linkedin.com/GabigoldoSenai" alt="Linkedin: @GabigoldoSenai">
+                    </button>
+                    <button id = "btn_behance">
+                        <img src= "images/behance_icon.svg" href="https://Behance.com/GabigoldoSenai" alt="Behance: @GabigoldoSenai">
+                    </button>
+                </div>
+                
+            </div>
+        </section>
+    </header>
 
 </body>
+
 </html>
