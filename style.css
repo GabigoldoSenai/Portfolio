@@ -58,31 +58,32 @@ nav ul {
 
 nav a{
     text-decoration: none;
-    padding: 3.6vw;
+    margin: 3.6vw;
     opacity: 80%;
-    transition: 0.5s;
+    transition: 0.3s;
+}
+nav a:hover{
+    font-size: 20px;
+    opacity: 100%;
 }
 
-nav a:after{
+header:after{
     content: "";
     position: absolute;
-    background-color: white;
+    background-color: #f0f0f0;
     height: 1.5px;
     display: flex;
     width: 90%;
     left:5%;
     right:5%;
     bottom: 0px;
-    opacity: 10%
-}
-
-nav a:hover{
-    opacity: 100%;
+    opacity: 30%
 }
 
 .btn-download-header{
     background-color: var(--rosa-base);
     border-radius: 8px;
+    margin-right: 2vw;
     padding: 13px 31px;
     color: var(--branco-fonte);
     opacity: 100%;
@@ -97,11 +98,13 @@ main{
     margin-top: 12%;
     background-color: var(--roxo-base);
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     color: var(--branco-fonte);
     font-family: 'Reem Kufi Fun', sans-serif;
     font-weight: 400;
     margin-left: 70px;
+    height: 1000px;
+    
 }
 
 main .subtitulo{
@@ -120,9 +123,10 @@ main .resumo{
     font-size: 23px;
     line-height: 133.5%;
 }
-
-main .avatar{
-    width: 1220px;
+*/
+.avatar{
+    position:absolute;
+    width: 500px;
 }
 
 .btn-download-main{
@@ -147,3 +151,4 @@ main .avatar{
     margin: 10px;
     color: white;
 }
+
