@@ -1,0 +1,149 @@
+:root {
+    --branco-fonte: #EDE7E7;
+    --rosa-base: #FC0147;
+    --roxo-base: #52088C;
+    --amarelo-base: #F8B10A;
+    --azulclaro-base: #54ACD2;
+    --roxoescuro-contraste: #39245F;
+}
+
+html{
+    height: 500vw;
+    background-color: var(--roxo-base);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    background-color: var(--roxo-base);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header a {
+    color: var(--branco-fonte);
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-weight: 400;
+}
+
+header.scroll{
+    background-color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-left: 4vw;
+    width: 50px;
+}
+
+.logo a {
+    padding-left: 1vw;
+    font-size: 30px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2vw;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 3.6vw;
+    opacity: 80%;
+    transition: 0.5s;
+}
+
+nav a:after{
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 1.5px;
+    display: flex;
+    width: 90%;
+    left:5%;
+    right:5%;
+    bottom: 0px;
+    opacity: 10%
+}
+
+nav a:hover{
+    opacity: 100%;
+}
+
+.btn-download-header{
+    background-color: var(--rosa-base);
+    border-radius: 8px;
+    padding: 13px 31px;
+    color: var(--branco-fonte);
+    opacity: 100%;
+    text-decoration: none;
+}
+
+.btn-download:hover{
+    transition: 0.4s;
+}
+
+main{
+    margin-top: 12%;
+    background-color: var(--roxo-base);
+    display:flex;
+    justify-content: space-between;
+    color: var(--branco-fonte);
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-weight: 400;
+    margin-left: 70px;
+}
+
+main .subtitulo{
+    font-size: 30px;
+}
+
+main .titulo{
+    color: var(--amarelo-base);
+    text-shadow: 9px 11px 11px #39245F;
+    padding: 13px 0px;
+    font-size: 115px;
+    font-family: passion one, arial;
+}
+
+main .resumo{
+    font-size: 23px;
+    line-height: 133.5%;
+}
+
+main .avatar{
+    width: 1220px;
+}
+
+.btn-download-main{
+    background-color: var(--rosa-base);
+    font-size: 28px;
+    border-radius: 6px;
+    padding: 10px 30px;
+    color: var(--branco-fonte);
+    opacity: 100%;
+    text-decoration: none;
+}
+
+.redes-sociais{
+    width: 60px;
+    padding: 2px;
+    display:flex;
+    gap: 35px;
+}
+
+.email-copyboard{
+    display: inline-block;
+    margin: 10px;
+    color: white;
+}
